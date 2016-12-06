@@ -31,6 +31,15 @@
 классе за исключением инструкций импорта, комментариев и кода
 инициализаторов, конструкторов и методов.
 
+26.
+Создать классы пользовательских тегов, формирующих нужное количество
+элементов (строк, ячеек и др.) для размещения результатов выполнения запроса.
+В базе данных хранятся координаты конечного множества точек плоскости.
+Пользователем вводятся координаты центра и радиусы 5 концентрических
+окружностей. Между какими окружностями (1 и 2, 2 и 3, ..., 4 и 5) больше всего
+точек заданного множества? Полученное множество точек возвратить клиенту.
+
+
 ======================
 
 7.
@@ -44,3 +53,6 @@ Implement a method which takes a reference to object of ThreadGroup as input and
 
 17.
 Using reflexion write a program that displays full description of the class with given name including all information about the class except for imports, comments and code of constructors, initializators and methods.
+
+26.
+Create classes of user defined tags that form necessary number of elements (rows, cells etc.) for placing results of query execurion. There are coordinates of finite set of points (x, y) that are stored in the db. User enters coordinates of the center of the circle as well as radiuses of 5 circles with a common center. Between which circles are there the most number of points from the given set. These points should be returned to the client. 
